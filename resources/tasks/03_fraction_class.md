@@ -22,3 +22,7 @@ Your task is to implement own class for representation of fraction number. The F
 For your solution use this [template](03_fraction_class.py). All needed instructions are included in the template. You are supposed to fill in implementation for all methods there. 
 
 There is included function `gcd` (gratest common divisor) from math package. It might be useful in normalization of fraction. You can call it as any other function `gcd(x, y)` where `x` and `y` are input integers. It is not allowed to use any other import. Assignment with additional imports will fail automatically.
+
+Avoid usage of floats and division in entire solution except the method `normalize()`. It is allowed and necessary to use it `normalize()`, but nowehere else!
+
+You can expect that there wont be inputs or expected results with 0 or negative numbers in both numerator and denumerator.
