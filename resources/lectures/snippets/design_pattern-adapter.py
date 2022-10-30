@@ -1,3 +1,6 @@
+"""
+Adapter pattern example.
+"""
 from abc import ABC, abstractmethod
 
 class NumberInterface(ABC):
@@ -17,7 +20,7 @@ class ServiceAdapter(NumberInterface, ComplexNumberService):
 
     def do_operation(self, value):
         value = complex(value)
-        self.do_the_complex_trick(value)
+        value = self.do_the_complex_trick(value)
         return value.real
 
 
