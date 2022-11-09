@@ -1,6 +1,8 @@
 """
 Decorator pattern example.
 """
+from abc import ABC, abstractmethod
+
 class TitledName():
 
     def __init__(self, name_str):
@@ -10,13 +12,14 @@ class TitledName():
         return self._name_str
 
 
-class NameDecorator():
+class NameDecorator(ABC):
 
     def __init__(self, name):
         self._name = name
 
+    @abstractmethod
     def get(self):
-        return self._name.get()
+        pass
 
 
 class MscDecorator(NameDecorator):

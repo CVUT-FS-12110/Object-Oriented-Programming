@@ -20,7 +20,7 @@ class Factorials:
 
     def get(self, key):
         if key not in self.numbers:
-            print("Calculating factorial for value: {}..".format(key))
+            print("Calculating factorial for value: {}".format(key))
             self.numbers[key] = NumberFactorial(key)
         return self.numbers[key]
 

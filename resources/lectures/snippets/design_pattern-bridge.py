@@ -16,6 +16,7 @@ class Reporter(metaclass=ABCMeta):
 
 
 class FairReporter(Reporter):
+
     def report_good_news(self, news):
         print(news)
 
@@ -24,6 +25,7 @@ class FairReporter(Reporter):
 
 
 class PositiveBiasReporter(Reporter):
+
     def report_good_news(self, news):
         print(news)
 
@@ -45,6 +47,11 @@ class BadNews(News):
 
     def report(self):
         return self._reporter.report_bad_news(self.news)
+
+class GoodNews(News):
+
+    def report(self):
+        return self._reporter.report_good_news(self.news)
 
 
 reporter1 = FairReporter()
