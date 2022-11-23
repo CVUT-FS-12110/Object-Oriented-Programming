@@ -12,10 +12,7 @@ class DataStore(ABC):
 
 class Array(ABC):
 
-    @abstractmethod
-    def create_array(self):
-        pass
-
+    pass
 
 class Vector(Array):
 
@@ -39,7 +36,7 @@ class VectorDataStore(DataStore):
         return Array()
 
 
-storages = [MatrixDataStore(), VectorDataStore()]:
+storages = [MatrixDataStore(), VectorDataStore()]
 for storage in storages:
     array = storage.create_array()
     # do something nice with array
