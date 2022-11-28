@@ -14,6 +14,7 @@ class Array(ABC):
 
     pass
 
+
 class Vector(Array):
 
     pass
