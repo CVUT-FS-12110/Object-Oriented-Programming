@@ -51,8 +51,8 @@ class ExchangeFacade():
         """ Find gate that supports given symbol
         """
 
-    def _find_best_price(self, symbol):
-        """ Find best market service for the symbol
+    def _find_best_price(self, pair):
+        """ Find best market service for the pair
         """
 
     def _make_order(self, pair, volume, exchange):
