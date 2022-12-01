@@ -22,9 +22,9 @@ class PaymentMethod():
 
     def get_supported_symbols(self): pass
 
-    def deposit(self, volume, symbol): pass
+    def deposit(self, volume, symbol, exchange): pass
 
-    def withdraw(self, volume, symbol): pass
+    def withdraw(self, volume, symbol, exchange): pass
 
 class CreditCardGate(PaymentMethod): pass
 
@@ -42,9 +42,9 @@ class ExchangeFacade():
             CryptoAlternativeMarket(),
         ]
         self._payment_gates = [
-            CreditCardGate,
-            WiredTransfer,
-            CryptoWallet,
+            CreditCardGate(),
+            WiredTransfer(),
+            CryptoWallet(),
         ]
 
     def _find_payment_gate(self, symbol):
