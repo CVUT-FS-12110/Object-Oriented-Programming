@@ -4,85 +4,58 @@ https://github.com/CVUT-FS-12110
 
 **Please note that not understanding and/or not obeying the following instructions can result in your inability to obtain the assessment from this subject.**
 
+
+# Credit (Zápočet)
+
+During the semester students will be assignend with 10 homeworks. Up to 10 pts. can be scored for each homework. The credit will be awarded upon achieving at least 50 pts. from homeworks.
+
+| Category               | Possible MAX | Required MIN |
+|------------------------|--------------|--------------|
+| Homeworks              | 100          |      50      |
+
+
 # Exam
 
-The exam is separated into two major parts: theoretical and practical. The theoretical part consists of a theory test (20 pts.) and an oral exam (20 pts.). The practical part consists of a programming exam (10 pts.), the defense of your homework (40 pts.), and an optional semestral project (20 pts.).
+The exam is separated into three parts: theory test (20 pts.) and two oral exams: one covering lecture topics (20 pts.) and second covering lab topics (60 pts.).
 
-
-## Theoretical part
-
-The theoretical part will be testing and evaluating mainly the knowledge that you have learned during the semester lectures. This part will focus on theory without much connection to implementation in any programming language.
 
 ### Theory test
 
 Multiple choice tests covering topics from lectures and recommended study materials.
 
 * possible maximum: 20 points
-* required minimum: 5 points (25%)
+* required minimum: 10 points (50%)
 
 
-### Oral exam
+### Oral exam - lecturer
 
 Oral exams with the lecturer may cover any topic from lectures and recommended study materials. Special focus will be given to topics from Final State Examination (SZZ, Státní závěrečné zkoušky).
 
-
 * possible maximum: 20 points
-* required minimum: 5 points (25%)
+* required minimum: 10 points (50%)
 
 
-## Practical part
+### Oral exam - instructor
 
-The practical part will be testing and evaluating mainly the skills that you have gained during the semester labs. It will be closely dependent on everything that was shown during the labs. Python will be used as the main tool for this part. 
+Oral exams with the lecturer may cover any topic from labs, homeworks and recommended study materials. Special focus will be given practical knowledge of Python language. 
 
-### Programming exam
+* possible maximum: 60 points
+* required minimum: 30 points (50%)
 
-You will be asked to solve a programming task similar to the homework. This part of the exam will take place in a school computer class.
-
-* possible maximum: 10 points
-* required minimum: 2.5 points (25%)
-
-
-### Assignment defence
-
-The points from homework are collected during the semester but you will have to secure them during the exam. Examinator can ask you to describe any part of your code from any of your assignments. You must be able to prove that you know your solution, how it works and why have you done it in such a way.
-
-* possible maximum: 40 points
-* required minimum: 10 points (25%)
-* the maximum number of points for late assignment cannot exceed 70 % of normal points
-* number of points from a semester is a threshold, you will have to defend them during the exam
-
-
-### Semestral project (optional)
-
-The semestral project is optional so you don't have to do it. However, if you decide that you want to do some extra work, tell us. You can choose your own topic but it must be accepted by us. For the evaluation of the semestral project, you will have to defend your work in front of the lecturer at the end of the semester. You might be also asked for some more explanations during the exam.
-
-* possible maximum: 20 points
-* required minimum: 0 points (0%) 
-* project should represent about 40 hours of work of an average student
-* you will present your project to the lecturer at the end of the year  
 
 
 ## Points and grades
 
-### Theoretical part
-
-| Subcategory         | Possible MAX | Required MIN |
-|---------------------|--------------|--------------|
-| Test                | 20           |      5       |
-| Oral exam           | 20           |      5       |
-
-### Pracitcal part
-
-| Subcategory         | Possible MAX | Required MIN |
-|---------------------|--------------|--------------|
-| Programming exam    | 10           |     2.5      |
-| Assignment defence  | 40           |     10       |
-| Semestral project   | 20           |      0       |
+| Subcategory            | Possible MAX | Required MIN |
+|------------------------|--------------|--------------|
+| Test                   | 20           |      10      |
+| Oral exam - lecturer   | 20           |      10      |
+| Oral exam - instructor | 60           |      30      |
 
 
 ### Final grade
 * depends on the sum of all subcategories and fulfillment of the required minimum in each subcategory
-    * possible maximum: 110 points in total
+    * possible maximum: 100 points in total
     * required minimum: 50 points in total
 * if you won't have at least the required minimum in every subcategory you will be classified with F
 
@@ -100,9 +73,9 @@ Grading table:
 
 ## Aditional information
 * You should solve the task assigned by the lecturer every week. If you are unable to solve it within one week, notify the lecturer. The lecturer can grant you extra time to finish the task. However, you can get max. 70 % of points. 
-* The correct solution to all tasks during the semester can give you up to 80 points (every task can produce an equal fraction of points from this total number).
-* Upload your solution via moodle assignments feature.
-* Your submission has to be runnable by Python 3.x (Jupyter notebook, .py file)
+* The correct solution to all tasks during the semester can give you up to 100 points (every task can produce an equal fraction of points from this total number).
+* Upload your solution via moodle assignments feataure.
+* Your submission has to be python script `.py` runnable by Python 3.x (You can of course use jupyter notebook (files `.ipynb`) for solving the task on your side. When you are finished, you will convert and submit your solution as `.py` file)
 * If you use different than distribution packages, provide a requirements file for easy installation of the packages via Pip.
 * Your code has to result in the expected output without any modification required from the lecturer (debugging, uncommenting).
 * Your code needs to be commented and/or self-explanatory (final word has lecturer)
