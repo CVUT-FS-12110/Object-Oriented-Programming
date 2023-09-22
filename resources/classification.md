@@ -75,7 +75,7 @@ Grading table:
 * You should solve the task assigned by the lecturer every week. If you are unable to solve it within one week, notify the lecturer. The lecturer can grant you extra time to finish the task. However, you can get max. 70 % of points. 
 * The correct solution to all tasks during the semester can give you up to 100 points (every task can produce an equal fraction of points from this total number).
 * Upload your solution via moodle assignments feataure.
-* Your submission has to be runnable by Python 3.x (Jupyter notebook, .py file)
+* Your submission has to be python script `.py` runnable by Python 3.x (You can of course use jupyter notebook (files `.ipynb`) for solving the task on your side. When you are finished, you will convert and submit your solution as `.py` file)
 * If you use different than distribution packages, provide a requirements file for easy installation of the packages via Pip.
 * Your code has to result in the expected output without any modification required from the lecturer (debugging, uncommenting).
 * Your code needs to be commented and/or self-explanatory (final word has lecturer)
