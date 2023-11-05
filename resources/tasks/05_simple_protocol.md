@@ -46,7 +46,7 @@ Meaning that for following decoded message:
     SimpleFrame:
         Header:
             Frame ID: 1
-            Payload Length: 10
+            Payload Length: 11
             Secret Flag: 0
             Number of SubFrames: 2
         Payload:
@@ -61,7 +61,7 @@ Meaning that for following decoded message:
 
 The output will be as follows:
 
-    {FrameHeader[1,10,0,2]:FramePayload[<SubFrameHeader[1,5]:SubFrameData[Hello]>,<SubFrameHeader[1,6]:SubFrameData[World!]>]}->Hello World!
+    {FrameHeader[1,11,0,2]:FramePayload[<SubFrameHeader[1,5]:SubFrameData[Hello]>,<SubFrameHeader[1,6]:SubFrameData[World!]>]}->Hello World!
 
 ### Aditional information
 
