@@ -34,7 +34,7 @@ class MatrixDataStore(DataStore):
 class VectorDataStore(DataStore):
 
     def create_array(self):
-        return Array()
+        return Vector()
 
 
 storages = [MatrixDataStore(), VectorDataStore()]
