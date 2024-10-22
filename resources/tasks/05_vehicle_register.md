@@ -43,7 +43,7 @@ Important notes:
 * you can use any data structure for inner implementation of Register, just make sure that ale methods are returning defined outputs
 
 
-The basic interface is prepared in provided [template](09_vehicle_register.py).
+The basic interface is prepared in provided [template](05_vehicle_register.py).
 
 You can implement your own methods and classes if you want or need them. Also it is allowed to use different print functions everywhere you need them. Try to make it pretty.
 
