@@ -5,7 +5,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-url = "https://www.alza.cz/iphone-15-pro?dq=7927758"
+url = "https://www.alza.cz/iphone-16-pro-128gb-cerny-titan-d12541644.htm"
 driver = webdriver.Chrome()
 # open url
 driver.get(url)
@@ -20,11 +20,10 @@ price = driver.find_element(by=By.CLASS_NAME, value="price-box__price")
 print(f"Price CLASS NAME: {price.text}")
 # print(f"Price XPATH: {price_xpath.text}")
 
-# close browser
-driver.quit()
 
 # get email password from environment variable
 PASSWORD = os.environ.get("MAIL_PWD")
+
 
 # send email function
 def send_email(subject, body, sender_email, receiver_email, smtp_server, port, password):
@@ -43,13 +42,17 @@ def send_email(subject, body, sender_email, receiver_email, smtp_server, port, p
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message.as_string())
 
+
 # Example usage
 send_email(
     subject="Alza price",
     body=f"iPhone price is: {price.text}",
-    sender_email="your_email@gmail.com",
-    receiver_email="your_email@gmail.com",
-    smtp_server="smtp.gmail.com",
+    sender_email="oop.email@seznam.cz",
+    receiver_email="oop.email@seznam.cz",
+    smtp_server="smtp.seznam.cz",
     port=465,  # commonly used port for SSL
     password=PASSWORD
 )
+
+# close browser
+driver.quit()
