@@ -5,7 +5,7 @@ python -m venv venv
 Activate virtual environment:
 
 ~~~
-venv\Scripts\activate
+.\venv\Scripts\activate
 ~~~
 
 Install requirements:
