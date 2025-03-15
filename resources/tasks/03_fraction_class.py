@@ -31,7 +31,7 @@ class Fraction:
     def __lt__(self, other):
         # magic method for comparison `<`
         # compare two fractions if the first one is less than second one
-        # example 1/3 <= 1/2
+        # example 1/3 < 1/2
         pass
 
     def __le__(self, other):
