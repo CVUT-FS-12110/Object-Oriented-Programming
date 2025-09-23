@@ -7,11 +7,11 @@ https://github.com/CVUT-FS-12110
 
 # Credit (Zápočet)
 
-During the semester students will be assignend with 5 homeworks. Up to 10 pts. can be scored for each homework. In the second half of the semester students will be assigned with semestral project for up to 50 pts. The credit will be awarded upon achieving at least 50 pts. from homeworks.
+During the semester students will be assignend with 5 homeworks. Up to 10 pts. can be scored for each homework. In the second half of the semester students will be assigned with semestral project (up to 50 pts). The credit will be awarded upon achieving at least 50 pts. from homeworks.
 
 | Category               | Possible MAX | Required MIN |
 |------------------------|--------------|--------------|
-| Homeworks              | 100          |      50      |
+| Homeworks and semestral project | 100         |      50      |
 
 
 # Exam
