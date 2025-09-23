@@ -7,7 +7,7 @@ https://github.com/CVUT-FS-12110
 
 # Credit (Zápočet)
 
-During the semester students will be assignend with 10 homeworks. Up to 10 pts. can be scored for each homework. The credit will be awarded upon achieving at least 50 pts. from homeworks.
+During the semester students will be assignend with 5 homeworks. Up to 10 pts. can be scored for each homework. In the second half of the semester students will be assigned with semestral project for up to 50 pts. The credit will be awarded upon achieving at least 50 pts. from homeworks.
 
 | Category               | Possible MAX | Required MIN |
 |------------------------|--------------|--------------|
@@ -37,7 +37,7 @@ Oral exams with the lecturer may cover any topic from lectures and recommended s
 
 ### Oral exam - instructor
 
-Oral exams with the lecturer may cover any topic from labs, homeworks and recommended study materials. Special focus will be given practical knowledge of Python language. 
+Oral exams with the lecturer may cover any topic from labs, homeworks, semestral project and recommended study materials. Special focus will be given practical knowledge of Python language. 
 
 * possible maximum: 60 points
 * required minimum: 30 points (50%)
