@@ -4,7 +4,7 @@ Vaším úkolem je implementovat třídy v souboru [backend.py](backend.py) tak 
 ## Spuštění aplikace
 Nejprve musíte nainstalovat package pro tvorbu webových aplikací Streamlit:
 ```bash
-pip install streamlit
+pip install streamlit passlib
 ```
 Poté spusťte frontend.py
 ```bash
