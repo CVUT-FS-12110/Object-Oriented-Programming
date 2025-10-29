@@ -6,7 +6,7 @@
 
 1. [OOP Basics 2](https://docs.google.com/presentation/d/1DY3P_WagRGoeYuipROGfslwT316EO7SDath0sJGeHjI/edit?usp=sharing)
    
-1. [Software developement](https://docs.google.com/presentation/d/1DY3P_WagRGoeYuipROGfslwT316EO7SDath0sJGeHjI/edit?usp=sharing)
+1. [Software developement](https://docs.google.com/presentation/d/1GbgtoUasbwxbKbCBeAK0LG2_1uu_Y7Xc9J545p8syMc/edit?usp=sharing)
 
 1. [Abstract data types](https://docs.google.com/presentation/d/1pyvAeszWhdZ2M4HU8yQp2tEXN9UgqRemxOEV3NE1mSI/edit?usp=sharing)
 
