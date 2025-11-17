@@ -12,4 +12,8 @@
 
 1. [Sorting](https://docs.google.com/presentation/d/1FfrAufnvsCPfCsEr9tBf8gpsOMsd9hNQpUA626dBUG8/edit?usp=sharing)
 
+1. [Design Pattern 1](https://docs.google.com/presentation/d/1j35kPTphEDw0zgIjwmap5T4f0GAyvIgw-QTSmjqLN2M/edit?usp=sharing)
+
+1. [Design Pattern 2](https://docs.google.com/presentation/d/1tdeaS_fMJf0uNqxZAp1GSDvEgQIP4b3ygXPNSfU-U1Y/edit?usp=sharing) 
+
 
