@@ -1,6 +1,6 @@
 # Object Oriented Programming - Python
 
-See [classification and assessment rules](resources/classification.md)
+Classification and assessment rules are available in Moodle.
 
 ### Week 1
 - Lecture: [Software development](https://docs.google.com/presentation/d/1GbgtoUasbwxbKbCBeAK0LG2_1uu_Y7Xc9J545p8syMc/edit?usp=sharing)

@@ -131,3 +131,7 @@ dmypy.json
 
 # VS code
 .vscode
+
+# Classification (kept only in Moodle)
+resources/classification.md
+resources/classification.html
