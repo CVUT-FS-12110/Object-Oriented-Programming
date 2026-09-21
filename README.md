@@ -4,7 +4,7 @@ See [classification and assessment rules](resources/classification.md)
 
 ### Week 1
 - Lecture: [Software development](https://docs.google.com/presentation/d/1GbgtoUasbwxbKbCBeAK0LG2_1uu_Y7Xc9J545p8syMc/edit?usp=sharing)
-- Lab: -
+- Lab: [Git intro](resources/labs/00_git_intro_course.md)
 
 ### Week 2
 - Lecture: [Introduction to programming](https://docs.google.com/presentation/d/1JvvZC-awfW6uUZlAtMpAhQ2U8BAkj-A6SiWle6IR7i8/edit?usp=sharing)
